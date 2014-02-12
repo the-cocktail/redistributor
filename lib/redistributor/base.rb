@@ -65,7 +65,7 @@ module Redistributor
     end
 
     def client_for method
-      client_kind = Redistributor::Constants::REDIS_READ_OPS.include?(method)? :slave : :master
+      client_kind = Redistributor::Constants::REDIS_READ_OPS.include?(method.to_s)? :slave : :master
       get_client(client_kind)
     end
 
