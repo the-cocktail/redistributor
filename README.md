@@ -64,7 +64,7 @@ In this case "r" is the master redis-rb instance. You can use the slave one for 
 
 Be careful with this since the redis-rb clients are directly exposed within these calls.
 
-# Redis extensions
+### Redis extensions
 
 Right now the only extension impleted is zadd_with_score which works as zadd but without the need to specify the score which get calculated automatically by calculating a hash value.
 
