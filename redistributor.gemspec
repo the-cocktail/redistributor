@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Alejandro León"]
   spec.email         = ["alejandro.leon@the-cocktail.com"]
   spec.description   = %q{Distributes redis commands between master and slave}
-  spec.summary       = %q{Distributes redis commands between master and slave}
+  spec.summary       = %q{Redistributor seamlessly distributes redis commands between master and slave making it automatic for end users.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
